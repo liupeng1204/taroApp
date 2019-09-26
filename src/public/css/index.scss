@@ -1,0 +1,11 @@
+.center-x {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
