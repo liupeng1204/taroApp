@@ -56,15 +56,21 @@ export default class Index extends Component {
         </Swiper>
         <View className='at-row top-items'>
           <View className='at-col at-col-4'>
-            <AtAvatar circle image={homeImg} className='center-x' />
+            <View className='avatar center-x' onClick={() => this.toPage('/pages/university/query/index')}>
+              <AtAvatar circle image={homeImg} className='avatar-img' />
+            </View>
             高校查询
           </View>
           <View className='at-col at-col-4'>
-            <AtAvatar circle image={homeImg} className='center-x' />
+            <View className='avatar center-x' onClick={() => this.toPage('/pages/university/query/index')}>
+              <AtAvatar circle image={homeImg} className='avatar-img' />
+            </View>
             专业查询
           </View>
           <View className='at-col at-col-4'>
-            <AtAvatar circle image={homeImg} className='center-x' />
+            <View className='avatar center-x' onClick={() => this.toPage('/pages/aspiration/copy/index')}>
+              <AtAvatar circle image={homeImg} className='avatar-img' />
+            </View>
             志愿填报
           </View>
         </View>
@@ -84,5 +90,11 @@ export default class Index extends Component {
         </View>
       </View>
     )
+  }
+
+  toPage(url) {
+    Taro.navigateTo({
+      url
+    })
   }
 }

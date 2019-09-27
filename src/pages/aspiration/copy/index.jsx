@@ -1,11 +1,12 @@
+// aspiration拷贝页面
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import './index.scss'
+import '../index.scss'
 
-export default class University extends Component {
+export default class Aspiration extends Component {
 
   config = {
-    navigationBarTitleText: '高校专业'
+    navigationBarTitleText: '志愿填报'
   }
 
   componentWillMount() {
@@ -26,7 +27,7 @@ export default class University extends Component {
   render() {
     return (
       <View className='page_university'>
-        university
+        aspiration
       </View>
     )
   }

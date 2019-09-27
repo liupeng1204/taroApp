@@ -17,9 +17,12 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
-      'pages/university/index',
+      'pages/university_profession/index',
       'pages/aspiration/index',
       'pages/user/index',
+      'pages/university_profession/university/query/index',
+      'pages/university_profession/profession/query/index',
+      'pages/aspiration/copy/index'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -34,7 +37,7 @@ class App extends Component {
         iconPath: "./public/img/sb.png",
         selectedIconPath: "./public/img/sb.png"
       }, {
-        pagePath: "pages/university/index",
+        pagePath: "pages/university_profession/index",
         text: "高校专业",
         // iconPath: "./images/tab/cart.png",
         // selectedIconPath: "./images/tab/cart-active.png"

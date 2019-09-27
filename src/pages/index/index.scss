@@ -9,8 +9,18 @@
 
   .top-items {
     text-align: center;
-    .center-x {
-      margin-bottom: 20px;
+
+    .avatar {
+      height: 40pt;
+      width: 40pt;
+      border-radius: 20pt;
+      margin-bottom: 10pt;
+      background-size: contain;
+
+      .avatar-img {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }
