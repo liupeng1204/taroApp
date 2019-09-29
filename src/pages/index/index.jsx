@@ -56,13 +56,13 @@ export default class Index extends Component {
         </Swiper>
         <View className='at-row top-items'>
           <View className='at-col at-col-4'>
-            <View className='avatar center-x' onClick={() => this.toPage('/pages/university/query/index')}>
+            <View className='avatar center-x' onClick={() => this.toPage('/pages/university_profession/university/query/index')}>
               <AtAvatar circle image={homeImg} className='avatar-img' />
             </View>
             高校查询
           </View>
           <View className='at-col at-col-4'>
-            <View className='avatar center-x' onClick={() => this.toPage('/pages/university/query/index')}>
+            <View className='avatar center-x' onClick={() => this.toPage('/pages/university_profession/profession/query/index')}>
               <AtAvatar circle image={homeImg} className='avatar-img' />
             </View>
             专业查询
